@@ -181,6 +181,12 @@ body, html {
 }
 
 /*Vilkaar-seksjon*/  
+
+.vilkaar-flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .flex-vilkaar-column {
 	display: flex;
 	flex-direction: column;
@@ -191,31 +197,15 @@ body, html {
 	align-content: left;
 }
 
-.vilkaarp {
-	display: flex;
-	justify-content: flex-start;
-	text-align: left;
-	max-width: 17em;
+
+
+.vilkaar-content ul, li, th, td {
+     text-align: left;
+    
 }
 
-.vilkaar-item-row {
-	margin: 0.47em 0;
-	text-align: left;
-}
 
-table {
-	border-collapse: separate;
-	border-spacing: 0 0.61em;
-}
 
-td, th {
-	text-align: left;
-	padding:0
-}
-
-td{
-	max-width: none;
-}
 
 /*testimonials-style-css*/
 .test-flex-row{
