@@ -8,6 +8,50 @@ body, html {
     line-height: 1.8;
 }
 
+.navbar {
+	position: fixed;
+	z-index: 100;
+	margin-top: 25px;
+	padding: 0px 7%;
+	width: 100%;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar .btn-highlight {
+	background: black;
+	border-radius: 50px;
+	margin-left: 20px;
+}
+
+.navbar .nav-icon {
+	float: left;
+	background: blue;
+	border-radius: 40px;
+	padding: 5px 6px;
+}
+
+.navbar li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+	float: right;
+}
+
+.navbar li a {	
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.navbar li a:hover {
+	background: grey;
+}
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
