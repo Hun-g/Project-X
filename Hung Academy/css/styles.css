@@ -191,7 +191,6 @@ body, html {
 	max-width: 70em;
 /* border: solid crimson 5px; */
 }
-
 .column {
 	
 	display: flex;
@@ -247,6 +246,14 @@ body, html {
      text-align: left;
     
 }
+
+#fk {
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    box-sizing: 0;
+}
+
 
 
 
