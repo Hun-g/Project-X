@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1794px" height="685px" viewBox="0 0 1794 685" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 20</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1794" height="685"></rect>
+    </defs>
+    <g id="importnat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-4" transform="translate(-221.000000, -921.000000)">
+            <g id="Rectangle-20" transform="translate(221.000000, 921.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#1A6AF0" xlink:href="#path-1"></use>
+                <rect fill="#898989" mask="url(#mask-2)" transform="translate(655.096172, 292.630376) rotate(-31.000000) translate(-655.096172, -292.630376) " x="-388.279606" y="25.1771921" width="2086.75156" height="534.906368"></rect>
+                <rect fill="#2976F7" mask="url(#mask-2)" transform="translate(1458.948950, 911.331348) rotate(-31.000000) translate(-1458.948950, -911.331348) " x="201.265762" y="499.86737" width="2515.36638" height="822.927956"></rect>
+                <rect fill="#2976F7" mask="url(#mask-2)" transform="translate(169.374378, -315.092652) rotate(-31.000000) translate(-169.374378, 315.092652) " x="-1088.30881" y="-726.55663" width="2515.36638" height="822.927956"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

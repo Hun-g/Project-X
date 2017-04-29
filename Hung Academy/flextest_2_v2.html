@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test 2</title>
+    <style>
+        
+        
+/*Garanti-section*/
+        .column {
+            
+            display: flex;
+            flex-direction: column;
+            /* border: solid #26dc00 5px; */
+            flex: 1;
+        }
+        .row {
+            display: flex;
+            flex-direction: row;
+            max-width: 50em;
+            /* border: solid crimson 5px; */
+        }
+        .boks {
+            /* border: solid blue 4px; */
+            flex: 1;
+            align-content: center;
+            justify-content: center;
+            display: flex;
+        }
+        .boks > * {
+            z-index: 100;
+            align-self: center;
+            justify-self: center;
+            position: relative;
+            margin: 0 0.5em;
+        }
+        .h1garanti {
+            font-size: 1.3em;
+            margin: 0;
+        }
+        .pgaranti  {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+
+<!--Garanti-section-->
+
+<div class="row">
+    <div class="column">
+        <div class="boks" style="flex: 3">
+            <div> <!-- Putt innhold inni denne div-en -->
+                <h1 class="h1garanti">Lorem ipsum dolor sit.</h1>
+                <p class="pgaranti">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolorum et eveniet maxime molestiae
+                    neque, pariatur porro quia ullam vel.</p>
+            </div>
+
+        </div>
+        <div class="boks"></div>
+        <div class="boks" style="flex: 3">
+            <div> <!-- Putt innhold inni denne div-en -->
+                <h1 class="h1garanti">Lorem ipsum dolor sit.</h1>
+                <p class="pgaranti">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolorum et eveniet maxime molestiae
+                    neque, pariatur porro quia ullam vel.</p>
+            </div>
+        </div>
+    </div>
+    <div class="boks">
+        <img src="svg/garanti.svg" alt="">
+    </div>
+    <div class="column">
+        <div class="boks"></div>
+        <div class="boks">
+            <div> <!-- Putt innhold inni denne div-en -->
+                <h1 class="h1garanti">Lorem ipsum dolor sit.</h1>
+                <p class="pgaranti">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolorum et eveniet maxime molestiae
+                    neque, pariatur porro quia ullam vel.</p>
+            </div>
+        </div>
+        <div class="boks"></div>
+    </div>
+</div>
+
+</body>
+</html>

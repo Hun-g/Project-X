@@ -1,0 +1,138 @@
+<html>
+<style>
+
+    
+
+    
+    @media screen and (max-width 700px){
+        #gcenter{
+            display:none;
+        }
+ 
+        /*display only on mobile (mb)*/
+    
+    .mb-flex-column{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .mb-flex-item{
+        
+    }
+  
+  .mb-flex-row{
+    display: flex;
+    flex-direction: row;  
+}    
+
+.mb-flex-item:nth-child(odd) .mb-flex-row{
+      flex-direction: row-reverse;
+
+  }
+
+    .mb-image-wrap{
+        
+    }
+    
+    .mb-content-wrap{
+        display: table;
+        height: 210px;
+        overflow: hidden;
+    }
+    
+    .mb-content{
+        display: table-cell;
+        vertical-align: middle;
+        padding: 10px;
+        
+    }
+        
+    }
+    
+    
+</style>
+
+
+
+
+<body>
+    
+
+
+<!--Only displayed on mobile-->
+
+<div id=mb-gara-mobile>
+<!--flex-column to make all the divs go under eachother  -->
+    <div class="mb-flex-column">
+       
+<!--1st flex-item-->
+        <div class="mb-flex-item">
+<!--           I tired to use flex-row to align img and content horizontally-->
+              <div class="mb-flex-row">
+                     <div class="image-wrap">
+                      <img src="svg/gara1.svg"  alt="">
+                        </div>
+                  
+                         <div class="mb-content-wrap">
+                          <div class="mb-content">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestiae quas consequatur unde reiciendis saepe, ex hic minima molestias mollitia dolorem cumque dignissimos, debitis, enim soluta repellendus atque ullam qui porro aspernatur! Eaque cupiditate, at magnam aliquam obcaecati 
+                          </div>
+                      </div>
+                  
+                  
+              </div>
+       
+           
+        </div>
+
+<!--2nd-flexitem-->
+
+        <div class="mb-flex-item">
+<!--           I tired to use flex-row to align img and content horizontally-->
+              <div class="mb-flex-row">
+                     <div class="image-wrap">
+                      <img src="svg/gara2.svg"   alt="">
+                      </div>
+                   
+                      <div class="mb-content-wrap">
+                          <div class="mb-content">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestiae quas consequatur unde reiciendis saepe, ex hic minima molestias mollitia dolorem cumque dignissimos, debitis, enim soluta repellendus atque ullam qui porro aspernatur! Eaque cupiditate, at magnam aliquam obcaecati 
+                          </div>
+                      </div>
+                   
+              </div>
+       
+        </div>
+        
+<!--3rd-flexitem-->
+
+        <div class="mb-flex-item">
+           
+<!--           I tired to use flex-row to align img and content horizontally-->
+            <div class="mb-flex-row">
+                     <div class="image-wrap">
+                      <img src="svg/gara3.svg"    alt="">
+                      </div>
+                      
+                      <div class="mb-content-wrap">
+                          <div class="mb-content">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestiae quas consequatur unde reiciendis saepe, ex hic minima molestias mollitia dolorem cumque dignissimos, debitis, enim soluta repellendus atque ullam qui porro aspernatur! Eaque cupiditate, at magnam aliquam obcaecati 
+                          </div>
+                      </div>
+              </div>
+       
+
+        </div>
+
+
+    </div>
+
+</div>
+    
+
+
+</body>
+
+
+</html>

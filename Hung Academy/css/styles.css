@@ -1,0 +1,377 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-4
+{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('/svg/background1.svg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/img/Erfaring@2x.png");
+    min-height: 500px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/img/pris.png");
+    min-height: 500px;
+}
+
+    .bgimg-4 {
+    background-image: url("/svg/garantier.svg");
+    min-height: 500px;
+}
+
+
+    
+            * {
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+            border: solid dimgray 2px;
+            max-width: 70em;
+            min-width: 20em;
+            margin: auto;
+            
+            padding: 1em;
+        }
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .bilder {
+            width: 10em;
+            height: 10em;
+            display: flex;
+            margin: 3em;
+            justify-content: center;
+            padding: 0;
+        }
+        .bilder > img {
+            width: 13em;
+            height: 13em;
+            position: absolute;
+            z-index: 0;
+        }
+        .erfaring {
+            z-index: 100;
+            align-self: center;
+            justify-self: center;
+            position: relative;
+            margin: 0 1em;
+        }
+   
+    
+ 
+    .flex-col2{
+        width: 20em;
+        
+        
+    }
+    
+    
+    .quote{
+        width: 17em;
+        height: 10em;
+        display: flex;
+        align-self: center;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+
+
+  
+    .flex-container{
+        display: flex;
+         border: solid dimgray 2px;
+            max-width: 100%;
+            min-width: 20em;
+        padding: 1em;
+    }
+
+    .flex-col3{
+        width: 20em;
+        margin:3em;
+    }
+    
+
+/*Erfaring-seksjon*/
+
+.erfaring-blue{
+    background: #0584ff; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(0deg,#021380, #0584ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(0deg, #021380, #0584ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(0deg, #021380, #0584ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(0deg, #021380,  #0584ff); /* Standard syntax (must be last) */
+}
+
+.color-blue{
+    background: #2976F7;
+}
+
+.color-white{
+    color: #fff;
+}
+    
+    /*Garanti-section*/
+    
+    #gcenter{
+        display: flex;
+        justify-content: center;
+    }
+     .row {
+            display: flex;
+            flex-direction: row;
+            max-width: 70em;
+/*             border: solid crimson 5px; */
+        }
+    
+        .column {
+            
+            display: flex;
+            flex-direction: column;
+/*             border: solid #26dc00 5px; */
+            flex: 1;
+          
+        }
+       
+        .boks {
+/*             border: solid blue 4px; */
+            flex: 1;
+            align-content: center;
+            justify-content: center;
+            display: flex;
+        }
+    
+        .boks > * {
+            z-index: -100;
+            align-self: center;
+            justify-self: center;
+            position: relative;
+            margin: 0 0.5em;
+        }
+        .h1garanti {
+            font-size: 1.3em;
+            margin: 0;
+        }
+        .pgaranti  {
+            margin: 0;
+        }
+
+
+
+
+    
+
+/*Vilkaar-seksjon*/
+        
+     .flex-vilkaar-column{
+        display: flex;
+        flex-direction: column;
+        margin: 0 50px;
+    }
+    
+    
+       .left-col{
+           align-content: left;
+       } 
+        
+
+        .vilkaarp{
+        display: flex;
+        justify-content: flex-start;
+        text-align: left;
+        max-width: 17em;
+    }
+
+
+    
+       .vilkaar-item-row{
+           margin: 0.47em 0;
+           text-align: left;
+           
+       }
+    
+        table{
+        border-collapse: separate;
+        border-spacing: 0 0.61em;
+     
+        
+    }
+    
+        td, th{
+        text-align: left;
+        padding:0
+        
+    }
+    
+       td{
+        max-width: none;
+    }
+
+/*testimonials-style-css*/
+           .test-flex-row{
+               display: flex;
+               flex-direction: row;
+           }
+            
+           .testimonials{
+               margin-bottom: 40px;
+              padding: 0 10px;
+               margin: 0 10px;
+           }
+           
+           .text-center{
+                text-align: center;
+           }
+           
+           .image-wrap{
+               margin-top: 35px;
+               margin-bottom: 20px;
+           }
+           
+           .test-image-size{
+               width: 80px;
+                height: 80px;
+           }
+        
+           
+           .feature-title{
+               padding-top: 10px;
+               border-top: 2px solid #f3f3f3;
+               font-size: 18px;
+               font-weight: 200;
+           }
+           
+           .subtitle{
+               font-size: 11px;
+               font-style: normal;
+               font-weight: 300;
+               letter-spacing: 2px;
+               text-transform: uppercase;
+           }
+           
+           .icon-wrap{
+               padding-bottom: 15px;
+           }
+           
+           .testimonial-content{
+               font-family: "Raleway";
+               font-size: 15px;
+               font-style: italic;
+               line-height: 2;
+               padding-bottom: 15px;
+           }
+           
+    
+    
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+    
+      
+}
+
+/*Testimonials*/
+
+   @media screen and (max-width: 750px){
+               
+             .test-flex-row{
+               display: flex;
+               flex-direction: column;
+           }
+     }
+visibility: 0;
+oppacity: 0;
+
+
+@media screen and (min-width: 701px){
+    #mb-gara-mobile{
+        display: none;
+    }
+}
+
+
+
+/*Applying on Garanti-seksjon - displaying another figure for mobile-devices*/
+
+    @media screen and (max-width: 700px){
+        #gcenter{
+            display:none;
+        }
+ 
+        /*display only on mobile (mb)*/
+    
+    .mb-flex-column{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .mb-flex-item{
+        
+    }
+  
+  .mb-flex-row{
+    display: flex;
+    flex-direction: row;  
+}    
+
+.mb-flex-item:nth-child(odd) .mb-flex-row{
+      flex-direction: row-reverse;
+
+  }
+
+    .mb-image-wrap{
+        
+    }
+    
+    .mb-content-wrap{
+        display: table;
+        height: 210px;
+        overflow: hidden;
+    }
+    
+    .mb-content{
+        display: table-cell;
+        vertical-align: middle;
+        padding: 10px;
+        
+    }
+        
+    }
+
